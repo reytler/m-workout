@@ -224,6 +224,92 @@ const initialWorkout: Array<Iworkout> = [
                 url:'https://www.youtube.com/embed/7lc8Ow4vIwA'
             },
         ]
+    },
+    {
+        id: 3,
+        day:'Quinta-Feira',
+        checked: false,
+        exercices:[
+            {
+                id: 1,
+                title:' Pré-ativação - Cadeira extensora',
+                rest:60,
+                obs:'',
+                series:[
+                    {amount: 2, reps: '30', isometry: 0, checked: false}
+                ],
+                checked: false,
+                url:''
+            },
+            {
+                id: 2,
+                title:' Passadas',
+                rest:0,
+                obs:'',
+                series:[
+                    {amount: 1, reps: '150', isometry: 0, checked: false}
+                ],
+                checked: false,
+                url:''
+            },
+            {
+                id: 3,
+                title:' Agachamento Livre Barra',
+                rest:60,
+                obs:'Elevar cargas a cada Bloco',
+                series:[
+                    {amount: 1, reps: '20', isometry: 0, checked: false},
+                    {amount: 2, reps: '15', isometry: 0, checked: false},
+                    {amount: 4, reps: '10', isometry: 0, checked: false},
+                ],
+                checked: false,
+                url:''
+            },
+            {
+                id: 4,
+                title:' Hack descer até 90°',
+                rest:60,
+                obs:' Na última Série Escolher a carga para Falhar',
+                series:[
+                    {amount: 4, reps: '8-12', isometry: 0, checked: false},
+                ],
+                checked: false,
+                url:''
+            },
+            {
+                id: 5,
+                title:'Cadeira Extensora',
+                rest:60,
+                obs:' Carga Altíssima',
+                series:[
+                    {amount: 6, reps: '8', isometry: 0, checked: false},
+                ],
+                checked: false,
+                url:''
+            },
+            {
+                id: 6,
+                title:'Cadeira Flexora',
+                rest:60,
+                obs:'',
+                series:[
+                    {amount: 3, reps: '30', isometry: 0, checked: false},
+                ],
+                checked: false,
+                url:''
+            },
+            {
+                id: 7,
+                title:'Stiff',
+                rest:60,
+                obs:'',
+                series:[
+                    {amount: 4, reps: '10', isometry: 0, checked: false},
+                ],
+                checked: false,
+                url:''
+            },
+        ]
     }
 ]
 
