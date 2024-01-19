@@ -4,7 +4,7 @@ interface buttonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonE
     value: string,
     width: number,
     height: number,
-    fontSize: number
+    fontSize: number,
 }
 
 export function Button(props:buttonProps){
@@ -15,6 +15,7 @@ export function Button(props:buttonProps){
             height: props.height,
             fontSize: props.fontSize,
             borderRadius:'5px',
+            padding: '5px 5px 50px 5px'
             }}
         >
             {props.value}

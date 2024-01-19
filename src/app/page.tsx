@@ -19,6 +19,9 @@ export default function Home() {
         <Link href={'/diet'}>
           <Button height={45} width={300} fontSize={30} value={'Dieta'}/>
         </Link>
+        <Link href={'/stretching'}>
+          <Button height={45} width={300} fontSize={30} value={'Alongamentos'}/>
+        </Link>
       </div>
     </>
   )
