@@ -1,4 +1,4 @@
-import { Iworkout } from "@/app/workouts/page";
+import { Iworkout } from "@/interfaces/Iworkout";
 import Swicth from "../Switch";
 import { Exercice } from "../Exercice";
 
