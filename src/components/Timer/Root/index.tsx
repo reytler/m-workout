@@ -44,6 +44,7 @@ export function Root({seconds}:propsTimer){
 
     useEffect(()=>{
         setPercent((show / seconds) * 100)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[show])
 
     useEffect(()=>{
