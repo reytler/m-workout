@@ -1,5 +1,4 @@
-import { ISerie } from "@/app/workouts/page";
-
+import { ISerie } from "@/interfaces/Iworkout"
 interface propsSerie {
     serie: ISerie
 }
